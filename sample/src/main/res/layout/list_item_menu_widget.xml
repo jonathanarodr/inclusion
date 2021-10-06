@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:minHeight="@dimen/spacing_xxl">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_item_menu"
+        android:layout_width="@dimen/spacing_sm"
+        android:layout_height="@dimen/spacing_sm"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_accessibility"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title_item_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:layout_marginEnd="@dimen/spacing_sm"
+        android:textSize="@dimen/size_md"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/description_item_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/icon_item_menu"
+        app:layout_constraintTop_toTopOf="@+id/icon_item_menu"
+        tools:text="Title item menu" />
+
+    <TextView
+        android:id="@+id/description_item_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xxs"
+        android:textSize="@dimen/size_sm"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_item_menu"
+        app:layout_constraintStart_toStartOf="@+id/title_item_menu"
+        app:layout_constraintTop_toBottomOf="@+id/title_item_menu"
+        tools:text="Description item menu"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
