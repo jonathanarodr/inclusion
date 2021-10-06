@@ -35,5 +35,11 @@ android {
 }
 
 dependencies {
+    implementation(Dependencies.ANDROIDX_CORE)
+    implementation(Dependencies.ANDROIDX_APPCOMPAT)
+    implementation(Dependencies.ANDROIDX_RECYCLER)
+    implementation(Dependencies.ANDROIDX_CONSTRAINT)
+    implementation(Dependencies.KOIN)
+    implementation(Dependencies.MATERIAL)
     implementation(Dependencies.MARKWON)
 }
