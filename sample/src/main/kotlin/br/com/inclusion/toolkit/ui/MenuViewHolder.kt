@@ -3,29 +3,29 @@ package br.com.inclusion.toolkit.ui
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import br.com.inclusion.databinding.ListItemMenuWidgetBinding
+import br.com.inclusion.databinding.ListItemMenuBinding
 
-class MenuWidgetViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class MenuViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-    private val binding = ListItemMenuWidgetBinding.bind(itemView)
+    private val binding = ListItemMenuBinding.bind(itemView)
 
-    fun bindView(itemMenuWidget: ItemMenuWidget) {
+    fun bindView(itemMenu: ItemMenu) {
         binding.apply {
-            titleItemMenu.text = itemMenuWidget.title
+            titleItemMenu.text = itemMenu.title
 
-            itemMenuWidget.icon?.let { value ->
+            itemMenu.icon?.let { value ->
                 iconItemMenu.setImageDrawable(value)
                 iconItemMenu.isVisible = true
             }
 
-            itemMenuWidget.description?.let { value ->
+            itemMenu.description?.let { value ->
                 descriptionItemMenu.text = value
                 descriptionItemMenu.isVisible = true
             }
         }
 
         itemView.setOnClickListener {
-            itemMenuWidget.onClickListener(binding)
+            itemMenu.onClickListener(binding)
         }
     }
 }

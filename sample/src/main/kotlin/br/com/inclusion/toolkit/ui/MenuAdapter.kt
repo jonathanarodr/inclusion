@@ -5,20 +5,20 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import br.com.inclusion.R
 
-class MenuWidgetAdapter(
-    menu: List<ItemMenuWidget>,
-) : RecyclerView.Adapter<MenuWidgetViewHolder>() {
+class MenuAdapter(
+    menu: List<ItemMenu>,
+) : RecyclerView.Adapter<MenuViewHolder>() {
 
     private val menuSorted = menu.sortedBy { it.position }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuWidgetViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MenuViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(
-            R.layout.list_item_menu_widget, parent, false
+            R.layout.list_item_menu, parent, false
         )
-        return MenuWidgetViewHolder(view)
+        return MenuViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: MenuWidgetViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MenuViewHolder, position: Int) {
         holder.bindView(menuSorted[position])
     }
 

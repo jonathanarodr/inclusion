@@ -1,11 +1,11 @@
 package br.com.inclusion.toolkit.ui
 
 import android.graphics.drawable.Drawable
-import br.com.inclusion.databinding.ListItemMenuWidgetBinding
+import br.com.inclusion.databinding.ListItemMenuBinding
 
-typealias OnItemMenuClickListener = (itemView: ListItemMenuWidgetBinding) -> Unit
+typealias OnItemMenuClickListener = (itemView: ListItemMenuBinding) -> Unit
 
-interface ItemMenuWidget {
+interface ItemMenu {
     val position: Int
     val icon: Drawable? get() = null
     var title: String
