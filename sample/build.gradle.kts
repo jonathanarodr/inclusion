@@ -42,6 +42,8 @@ dependencies {
     implementation(Dependencies.ANDROIDX_APPCOMPAT)
     implementation(Dependencies.ANDROIDX_RECYCLER)
     implementation(Dependencies.ANDROIDX_CONSTRAINT)
+    implementation(Dependencies.NAVIGATION_FRAGMENT)
+    implementation(Dependencies.NAVIGATION_UI)
     implementation(Dependencies.KOIN)
     implementation(Dependencies.MATERIAL)
     implementation(Dependencies.MARKWON)

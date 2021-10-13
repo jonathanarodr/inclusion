@@ -1,7 +1,7 @@
 object Versions {
 
     object Gradle {
-        const val CORE = "7.0.2"
+        const val CORE = "7.0.3"
     }
 
     object Kotlin {
@@ -13,6 +13,7 @@ object Versions {
         const val APPCOMPAT = "1.3.0"
         const val RECYCLER = "1.2.1"
         const val CONSTRAINT = "2.0.4"
+        const val NAVIGATION = "2.3.5"
     }
 
     object Tools {
