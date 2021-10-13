@@ -3,4 +3,9 @@
 
     <string name="app_name">Inclusion</string>
 
+    <!-- bottom navigation -->
+    <string name="title_gesture">Gestos</string>
+    <string name="title_toolkit">Acessibilidade</string>
+    <string name="title_more">Mais</string>
+
 </resources>

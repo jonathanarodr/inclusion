@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/accessibilityFragment">
+
+    <fragment
+        android:id="@+id/gestureFragment"
+        android:name="br.com.inclusion.view.GestureFragment"
+        tools:layout="@layout/fragment_gesture"
+        android:label="GestureFragment" />
+
+    <fragment
+        android:id="@+id/accessibilityFragment"
+        android:name="br.com.inclusion.view.AccessibilityFragment"
+        tools:layout="@layout/fragment_accessibility"
+        android:label="AccessibilityFragment" />
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="br.com.inclusion.view.MenuFragment"
+        tools:layout="@layout/fragment_menu"
+        android:label="MenuFragment" />
+
+</navigation>

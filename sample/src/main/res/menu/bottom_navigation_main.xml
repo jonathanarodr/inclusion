@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/gestureFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_gesture"
+        android:title="@string/title_gesture"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/accessibilityFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_accessibility"
+        android:title="@string/title_toolkit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/title_more"
+        app:showAsAction="ifRoom" />
+
+</menu>
