@@ -27,6 +27,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    lint {
+        isCheckDependencies = true
+    }
     testOptions {
         execution = "ANDROIDX_TEST_ORCHESTRATOR"
         animationsDisabled = true
