@@ -7,13 +7,13 @@
     android:background="?android:selectableItemBackground"
     android:clickable="true"
     android:focusable="true"
-    android:minHeight="@dimen/spacing_xxl">
+    android:minHeight="68dp"
+    android:paddingHorizontal="@dimen/spacing_sm">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/icon_item_menu"
-        android:layout_width="@dimen/spacing_sm"
-        android:layout_height="@dimen/spacing_sm"
-        android:layout_marginStart="@dimen/spacing_sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,22 +30,33 @@
         android:textSize="@dimen/size_md"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/description_item_menu"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/icon_navigate_indicator"
         app:layout_constraintStart_toEndOf="@+id/icon_item_menu"
         app:layout_constraintTop_toTopOf="@+id/icon_item_menu"
         tools:text="Title item menu" />
 
     <TextView
         android:id="@+id/description_item_menu"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_xxs"
         android:textSize="@dimen/size_sm"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/icon_item_menu"
+        app:layout_constraintEnd_toEndOf="@+id/title_item_menu"
         app:layout_constraintStart_toStartOf="@+id/title_item_menu"
         app:layout_constraintTop_toBottomOf="@+id/title_item_menu"
         tools:text="Description item menu"
         tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_navigate_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_right"
+        tools:viewBindingIgnore="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
