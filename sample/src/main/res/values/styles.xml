@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="InclusionTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!-- shape -->
+    <style name="ShapeAppearanceOverlay.Inclusion.Circle" parent="InclusionTheme">
+        <item name="cornerSize">50%</item>
+    </style>
 
 </resources>
