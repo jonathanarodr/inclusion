@@ -5,7 +5,7 @@ object Versions {
     }
 
     object Kotlin {
-        const val CORE = "1.5.31"
+        const val CORE = "1.5.32"
     }
 
     object Jetpack {
