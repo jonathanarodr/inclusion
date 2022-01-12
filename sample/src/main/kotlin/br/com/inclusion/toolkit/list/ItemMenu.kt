@@ -1,4 +1,4 @@
-package br.com.inclusion.toolkit.ui
+package br.com.inclusion.toolkit.list
 
 import android.graphics.drawable.Drawable
 import br.com.inclusion.databinding.ListCardItemMenuBinding

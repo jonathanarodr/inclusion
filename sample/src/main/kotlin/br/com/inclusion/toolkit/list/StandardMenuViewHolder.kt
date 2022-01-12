@@ -1,4 +1,4 @@
-package br.com.inclusion.toolkit.ui
+package br.com.inclusion.toolkit.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,23 +6,23 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import br.com.inclusion.R
-import br.com.inclusion.databinding.ListCardItemMenuBinding
+import br.com.inclusion.databinding.ListStandardItemMenuBinding
 
-class CardMenuViewHolder private constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class StandardMenuViewHolder private constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-    private val binding = ListCardItemMenuBinding.bind(itemView)
+    private val binding = ListStandardItemMenuBinding.bind(itemView)
 
     companion object {
-        operator fun invoke(parent: ViewGroup): CardMenuViewHolder {
+        operator fun invoke(parent: ViewGroup): StandardMenuViewHolder {
             return LayoutInflater.from(parent.context).inflate(
-                R.layout.list_card_item_menu, parent, false
+                R.layout.list_standard_item_menu, parent, false
             ).run {
-                CardMenuViewHolder(this)
+                StandardMenuViewHolder(this)
             }
         }
     }
 
-    fun bindView(itemMenu: CardItemMenu) {
+    fun bindView(itemMenu: StandardItemMenu) {
         binding.apply {
             titleItemMenu.text = itemMenu.title
 
