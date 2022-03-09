@@ -28,7 +28,7 @@ android {
         viewBinding = true
     }
     lint {
-        isCheckDependencies = true
+        checkDependencies = false
     }
     testOptions {
         execution = "ANDROIDX_TEST_ORCHESTRATOR"

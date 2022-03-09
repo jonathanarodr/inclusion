@@ -1,11 +1,11 @@
 object Versions {
 
     object Gradle {
-        const val CORE = "7.0.4"
+        const val CORE = "7.1.2"
     }
 
     object Kotlin {
-        const val CORE = "1.5.32"
+        const val CORE = "1.6.10"
     }
 
     object Jetpack {
