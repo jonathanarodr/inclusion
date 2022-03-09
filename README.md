@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jonathanarodr/inclusion/blob/main/screenshots/wallpaper.png" height="200">
+  <img src="https://github.com/jonathanarodr/inclusion/blob/main/assets/wallpaper.png" height="200">
   <h1 align="center">Inclusion</h1>
 </p>
 
