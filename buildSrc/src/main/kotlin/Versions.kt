@@ -17,7 +17,7 @@ object Versions {
     }
 
     object Tools {
-        const val KOIN = "3.1.2"
+        const val KOIN = "3.1.5"
         const val MATERIAL = "1.4.0"
         const val MARKWON = "4.6.2"
     }

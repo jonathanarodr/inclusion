@@ -8,4 +8,16 @@
     <string name="title_toolkit">Acessibilidade</string>
     <string name="title_more">Mais</string>
 
+    <!-- gestures -->
+    <string name="gesture_scroll_title">Rolagem vertical e horizontal</string>
+    <string name="gesture_next_item_title">Mover foco para próximo item</string>
+    <string name="gesture_previous_item_title">Mover foco para item anterior</string>
+    <string name="gesture_select_item_title">Selecionar item</string>
+    <string name="gesture_speech_item_title">Ler conteúdo do item selecionado</string>
+    <string name="gesture_next_control_title">Mover foco para frente ou ajustar controle</string>
+    <string name="gesture_previous_control_title">Mover foco para trás ou ajustar controle</string>
+    <string name="gesture_next_read_control_title">Controle de leitura anterior</string>
+    <string name="gesture_previous_read_control_title">Próximo controle de leitura</string>
+    <string name="gesture_back_title">Navegar para tela anterior</string>
+    <string name="gesture_home_screen_title">Navegar para tela principal</string>
 </resources>
