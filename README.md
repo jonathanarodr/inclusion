@@ -13,8 +13,8 @@ O projeto Inclusion por objetivo disponibilizar uma base de conhecimento sobre d
 
 ## Features
 
+- [ ] Gestos básicos com o TalkBack `🌱 in progress`
 - [ ] Accessibility tools
-- [ ] Gestos básicos com o TalkBack
 - [ ] Verificando serviço de acessibilidade
 - [ ] Área de toque
 - [ ] Adicionando texto alternativo (content descriptions)
