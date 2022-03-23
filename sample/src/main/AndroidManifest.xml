@@ -15,7 +15,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".view.MainActivity"
+            android:name="br.com.inclusion.ui.view.MainActivity"
             android:exported="true">
 
             <intent-filter>

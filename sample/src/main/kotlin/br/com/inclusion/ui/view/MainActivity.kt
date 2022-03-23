@@ -1,4 +1,4 @@
-package br.com.inclusion.view
+package br.com.inclusion.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

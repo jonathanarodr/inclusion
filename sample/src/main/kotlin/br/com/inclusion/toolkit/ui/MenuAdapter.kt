@@ -1,4 +1,4 @@
-package br.com.inclusion.toolkit.list
+package br.com.inclusion.toolkit.ui
 
 import android.util.Log
 import android.view.ViewGroup

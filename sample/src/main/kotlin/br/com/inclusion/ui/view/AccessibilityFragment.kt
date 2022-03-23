@@ -1,4 +1,4 @@
-package br.com.inclusion.view
+package br.com.inclusion.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,6 +19,11 @@ class AccessibilityFragment : Fragment() {
     ): View {
         _binding = FragmentAccessibilityBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

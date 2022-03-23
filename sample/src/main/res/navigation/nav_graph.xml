@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/gestureFragment"
-        android:name="br.com.inclusion.view.GestureFragment"
+        android:name="br.com.inclusion.ui.view.GestureFragment"
         tools:layout="@layout/fragment_gesture"
         android:label="GestureFragment" />
 
     <fragment
         android:id="@+id/accessibilityFragment"
-        android:name="br.com.inclusion.view.AccessibilityFragment"
+        android:name="br.com.inclusion.ui.view.AccessibilityFragment"
         tools:layout="@layout/fragment_accessibility"
         android:label="AccessibilityFragment" />
 
     <fragment
         android:id="@+id/menuFragment"
-        android:name="br.com.inclusion.view.MenuFragment"
+        android:name="br.com.inclusion.ui.view.MenuFragment"
         tools:layout="@layout/fragment_menu"
         android:label="MenuFragment" />
 
